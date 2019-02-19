@@ -1,9 +1,9 @@
 # Code your solution here!
 def run_guessing_game
   loop do
-     puts "Guess a number between 10 and 20."
+     puts "Guess a number between 1 and 6."
      input = gets.chomp
-     computer = rand(10..20)
+     computer = rand(1..6)
      if input == "exit"
        puts "Goodbye!"
        break
